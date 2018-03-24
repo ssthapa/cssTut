@@ -1,0 +1,60 @@
+body{
+	margin: 50px;
+}
+
+.container{
+	width: 100vw;
+	height: 100vw;
+}
+
+.boxs{
+	width: 200px;
+	height: 200px;
+	background: #3DCCC7;
+	transition: all 1000ms ease-in;
+}
+
+.boxs:hover{
+	background: #FF6B6B;
+	transform: rotate(45deg);
+}
+/**/
+.boxs-two{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 50px;
+	height: 50px;
+	background: #3DCCC7;
+	transform: rotate(45deg);
+	transition: all 500ms ease-in;
+}
+.boxs-two:hover{
+	margin-left: 100px;
+}
+
+/**/
+.box{
+	padding-top: 10px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	background: #3DCCC7;
+	transition-duration: 1000ms;
+}
+.box:hover{
+	width: 300px;
+	background: #FF6B6B;
+}
+.one{
+	transition-timing-function: linear;
+}
+.two{
+	transition-timing-function: ease-in;
+}
+.three{
+	transition-timing-function: ease-out;
+}
+.four{
+	transition-timing-function: ease-in-out;
+}
+
